@@ -4,6 +4,7 @@ const LanguageLearning = () => {
       <h1>Language Learning Articles Coming Soon</h1>
     </div>
   )
+
 }
 
 export default LanguageLearning
