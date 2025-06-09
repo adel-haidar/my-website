@@ -1,6 +1,6 @@
 # Personal Website
 
-This project is a simple React + TypeScript website built with Vite. It contains a main landing page and a placeholder for language learning articles.
+This project is a simple React + TypeScript website built with Vite. It contains a main landing page and a articles about language learning and tech.
 
 ## Available Scripts
 
