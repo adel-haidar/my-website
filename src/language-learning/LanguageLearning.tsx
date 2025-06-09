@@ -1,7 +1,7 @@
 const LanguageLearning = () => {
  return (
      <div>
-       <h1>FUCK THE GOVERNMENT!</h1>
+       <h1>Language Learning works!</h1>
      </div>
  )
 }
