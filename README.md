@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# Personal Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React + TypeScript website built with Vite. It contains a main landing page and a placeholder for language learning articles.
 
-Currently, two official plugins are available:
+## Available Scripts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `npm run dev` &mdash; start the development server.
+- `npm run build` &mdash; build the application for production.
+- `npm run preview` &mdash; preview the production build locally.
+- `npm run lint` &mdash; run ESLint using the configuration in `eslint.config.js`.
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Install dependencies with `npm install` and then run `npm run dev` to start a local server. The application will be available at `http://localhost:5173` by default.
 
-- Configure the top-level `parserOptions` property like this:
+## Project Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- `src/` &mdash; React components and pages.
+- `public/` &mdash; static assets served at the root.
+- `tsconfig.*.json` &mdash; TypeScript configuration files.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Notes
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+The project uses path aliases configured in `tsconfig.json`. If TypeScript reports errors about referenced projects, ensure that the `composite` option is enabled in `tsconfig.app.json` and `tsconfig.node.json` (already included).

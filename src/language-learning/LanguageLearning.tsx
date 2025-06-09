@@ -1,9 +1,9 @@
 const LanguageLearning = () => {
- return (
-     <div>
-       <h1>FUCK THE GOVERNMENT!</h1>
-     </div>
- )
+  return (
+    <div>
+      <h1>Language Learning Articles Coming Soon</h1>
+    </div>
+  )
 }
 
-export default LanguageLearning;
+export default LanguageLearning
