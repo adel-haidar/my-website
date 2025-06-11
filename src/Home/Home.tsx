@@ -1,6 +1,7 @@
 import {FaGithub, FaInstagram} from "react-icons/fa";
 import {CiLinkedin, CiMail} from "react-icons/ci";
 import {LiaXingSquare} from "react-icons/lia";
+import {Spotlight} from "@/spotlight/Spotlight";
 
 
 
@@ -95,6 +96,12 @@ const Home = () => {
             <FaInstagram className="w-10 h-10 sm:w-16 sm:h-16 lg:w-24 lg:h-24"/>
           </a>
         </div>
+      </div>
+      <div>
+        <Spotlight
+            className="-top-40 left-0 md:-top-20 md:left-60"
+            fill="white"
+        />
       </div>
     </div>
 )};

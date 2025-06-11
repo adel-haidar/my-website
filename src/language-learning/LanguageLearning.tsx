@@ -1,7 +1,7 @@
 const LanguageLearning = () => {
   return (
-    <div>
-      <h1>Language Learning Articles Coming Soon</h1>
+    <div className="bg-black text-white justify-center items-center flex flex-col text-sm md:text-lg lg:text-5xl">
+      <h1>Language Learning Articles Are Coming Soon</h1>
     </div>
   )
 

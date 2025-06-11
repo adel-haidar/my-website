@@ -1,9 +1,11 @@
 import './App.css'
-import {Spotlight} from "./spotlight/Spotlight.tsx";
 import {MainNavigationMenuList} from "@/navigation/Navigation";
 import {Route, Routes} from "react-router-dom"
 import LanguageLearning from "@/language-learning/LanguageLearning";
 import Home from "@/Home/Home";
+import TechArticles from "@/tech-articles/TechArticles";
+import LocalizationModuleFederation
+  from "@/LocalizationModuleFederation/LocalizationModuleFederation";
 
 
 const App = () => {
@@ -18,13 +20,15 @@ const App = () => {
             path="/language-learning"
             element={<LanguageLearning />}
           />
-        </Routes>
-        <div>
-          <Spotlight
-              className="-top-40 left-0 md:-top-20 md:left-60"
-              fill="white"
+          <Route
+              path="/tech-articles"
+              element={<TechArticles />}
           />
-        </div>
+          <Route
+              path="/localization-module-federation"
+              element={<LocalizationModuleFederation/>}
+            />
+        </Routes>
       </main>
   );
 };
