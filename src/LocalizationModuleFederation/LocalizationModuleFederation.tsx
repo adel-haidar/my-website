@@ -106,7 +106,7 @@ const LocalizationModuleFederation = () => {
   return (
     <div className="max-w-4xl">
       <div className="h-40"/>
-      <img src="../../public/assets/localization_Module_Federation.jpg" alt="localization and module federation"/>
+      <img src="/assets/localization_Module_Federation.jpg" alt="localization and module federation"/>
       <div className="bg-black text-white justify-center items-center flex flex-col">
         <div className="h-20"/>
         <div className="text-sm md:text-lg lg:text-5xl">
