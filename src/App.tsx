@@ -6,6 +6,7 @@ import Home from "@/Home/Home";
 import TechArticles from "@/tech-articles/TechArticles";
 import LocalizationModuleFederation
   from "@/LocalizationModuleFederation/LocalizationModuleFederation";
+import TheVerbPrendre from "@/TheVerbPrendre/TheVerbPrendre";
 
 
 const App = () => {
@@ -28,6 +29,10 @@ const App = () => {
               path="/localization-module-federation"
               element={<LocalizationModuleFederation/>}
             />
+          <Route
+              path="/le-verbe-prendre"
+              element={<TheVerbPrendre/>}
+          />
         </Routes>
       </main>
   );

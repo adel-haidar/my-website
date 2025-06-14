@@ -113,9 +113,10 @@ const LocalizationModuleFederation = () => {
           <h1>Internationlization, Localization & Module Federation</h1>
         </div>
         <div className="h-20"/>
-        <div className="text-justify text-sm md:text-lg lg:text-xl text-wrap">
+        <div className="text-justify text-sm md:text-lg lg:text-xl text-white leading-relax">
+          <span className="float-left mr-4 mb-2 text-9xl font-serif leading-none">L</span>
           <p>
-            Localization and internationalization are indispensable for any web application that is to be used in multiple countries.
+            ocalization and internationalization are indispensable for any web application that is to be used in multiple countries.
             I have always heard these words together, but I only knew that they are used in the context of translating a frontend application.
             What is the difference between internationalization and localization?
           </p>
