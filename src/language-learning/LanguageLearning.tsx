@@ -3,7 +3,7 @@ import {Card, CardDescription, CardHeader, CardTitle} from "@/components/ui/card
 
 const LanguageLearning = () => {
   return (
-      <Link to="/le-verb-prendre">
+      <Link to="/le-verbe-prendre">
         <Card>
           <CardHeader>
             <img src="/assets/le-verb-prendre.jpg" alt="Le Verb prendre"
